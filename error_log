@@ -1,0 +1,8 @@
+[01-Jan-2024 00:00:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/vetanwala/public_html/vendor/dompdf/dompdf/src/Css/Style.php on line 1471
+[01-Jan-2024 00:00:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65536 bytes) in /home/vetanwala/public_html/vendor/laravel/framework/src/Illuminate/Log/Logger.php on line 276
+[01-Feb-2024 00:00:17 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/vetanwala/public_html/vendor/dompdf/dompdf/src/Frame.php on line 434
+[01-Mar-2024 00:00:20 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 1314816 bytes) in /home/vetanwala/public_html/vendor/symfony/mime/Encoder/Base64Encoder.php on line 39
+[01-Apr-2024 00:00:16 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/vetanwala/public_html/vendor/dompdf/dompdf/src/Css/Style.php on line 1524
+[01-Apr-2024 00:00:16 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65536 bytes) in /home/vetanwala/public_html/vendor/laravel/framework/src/Illuminate/Cache/RateLimiting/GlobalLimit.php on line 14
+[01-May-2024 00:00:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 1314816 bytes) in /home/vetanwala/public_html/vendor/symfony/mailer/Transport/Smtp/Stream/AbstractStream.php on line 130
+[01-Jun-2024 00:00:30 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 716800 bytes) in /home/vetanwala/public_html/vendor/dompdf/dompdf/lib/Cpdf.php on line 2087
