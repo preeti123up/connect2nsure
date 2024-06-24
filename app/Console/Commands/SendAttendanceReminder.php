@@ -74,6 +74,11 @@ class SendAttendanceReminder extends Command
             $userShift = $this->getUserShift($userData->id, $shiftSetting);
             $endDateTime = Carbon::parse($today . ' ' . $userShift->office_end_time, 'Asia/Kolkata');
 
+         // If the shift ends the next day, adjust the end time check
+            if ($userShift->office_end_time < $userShift->office_start_time) {
+                $endDateTime->addDay();
+            }
+            
             if ($currentDateTime->greaterThan($endDateTime) && $this->isOfficeOpen($today, $userShift->office_open_days)) {
                 $this->sendNotification($userData, $today, "Don't forget to punch out at the end of your shift for accurate attendance records. ⏰", 'attendance_out_reminder');
             }
